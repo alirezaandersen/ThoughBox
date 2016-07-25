@@ -16,5 +16,6 @@
 //= require bootstrap-sprockets
 
 $(document).ready(function() {
+  setup_search_events();
   getLinks();
 });

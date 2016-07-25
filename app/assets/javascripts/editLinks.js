@@ -9,9 +9,9 @@ function linkBlur(e) {
   var
     $this = $(this),
     id = Number($(this).attr('id').match(/^(\d+)-/)[1]),
-    linkTitle = $this.html().split(': ')[0],
-    linkUrl = $this.html().split(': ')[1];
-
+    linkTitle = $this.html().split(': </strong>')[0],
+    linkUrl = $this.html().split(': </strong>')[1];
+    //debugger;
   changeData(id, linkTitle, linkUrl);
 }
 

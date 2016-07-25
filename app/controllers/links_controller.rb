@@ -13,7 +13,7 @@ class LinksController < ApplicationController
 
     if @link.save
       flash[:success] = "Your link #{@link.title} has been saved!"
-      render "index"
+      redirect_to links_path
     else
       flash.now[:danger] = @link.errors.full_messages.join(', ')
       render "index"
