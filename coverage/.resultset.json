@@ -1,0 +1,109 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/links_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/sessions_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/users_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/models/user.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/links_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/sessions_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/models/link.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1469463859
+  }
+}

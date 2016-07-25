@@ -1,0 +1,18 @@
+<h1>Sign up</h1>
+<div class="row">
+  <div class="container">
+    <%= form_for(@user) do |f| %>
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
+
+    <%= f.submit "Signup", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
+<div class="row container">
+  <h6><%= link_to 'already signed up?', controller: "sessions", action: "new" %></h6>
+</div>
