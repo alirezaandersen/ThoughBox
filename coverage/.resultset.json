@@ -21,6 +21,24 @@
         1,
         null,
         1,
+        2,
+        0,
+        null,
+        2,
+        2,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
         null,
         null,
         null
@@ -33,7 +51,7 @@
         1,
         null,
         1,
-        19,
+        23,
         null,
         null
       ],
@@ -93,6 +111,10 @@
       ],
       "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/models/link.rb": [
         1,
+        1,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/models/user.rb": [
@@ -100,10 +122,12 @@
         1,
         null,
         1,
+        null,
+        1,
         1,
         null
       ]
     },
-    "timestamp": 1469465033
+    "timestamp": 1469466410
   }
 }

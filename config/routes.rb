@@ -1,12 +1,17 @@
 Rails.application.routes.draw do
 
-root 'users#new'
+  root 'users#new'
 
   get "/login", to: "sessions#new"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
 
-resources :users, only: [:new, :create, :show]
-resources :links, only: [:index, :create]
+  resources :users, only: [:new, :index, :create]
+  resources :links, only: [:index, :create]
 
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      resources :links, only: [:index, :show, :update]
+    end
+  end
 end
