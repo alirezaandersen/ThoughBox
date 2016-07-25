@@ -1,4 +1,5 @@
 require 'rails_helper'
+
 RSpec.feature 'user creates an account' do
   scenario 'they successfully make an account' do
     visit '/'

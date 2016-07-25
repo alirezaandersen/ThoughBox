@@ -11,7 +11,7 @@ class UsersController < ApplicationController
       flash[:success] = "You have successfully registered #{@user.email}"
       redirect_to links_path
     else
-      flash.now[:alert] = "Something went wrong, please try again"
+      flash.now[:alert] = "Invalid email and/or password combination"
       render :new
     end
   end
