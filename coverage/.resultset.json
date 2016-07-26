@@ -1,23 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/application_helper.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/links_helper.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/helpers/links_helper.rb": [
         1,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/sessions_helper.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/helpers/sessions_helper.rb": [
         1,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/helpers/users_helper.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/models/user.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/models/user.rb": [
         1,
         1,
         null,
@@ -27,7 +27,7 @@
         1,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/users_controller.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -53,7 +53,7 @@
         null,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/application_controller.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -65,7 +65,7 @@
         null,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/sessions_controller.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/controllers/sessions_controller.rb": [
         1,
         null,
         1,
@@ -93,7 +93,7 @@
         null,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/links_controller.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/controllers/links_controller.rb": [
         1,
         1,
         8,
@@ -123,25 +123,19 @@
         null,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/models/link.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/models/link.rb": [
+        1,
+        1,
+        1,
         1,
         1,
         null,
         1,
-        1,
+        2,
+        null,
         null
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/api/v1/links_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/controllers/api/v1/links_controller.rb": [
         0,
         0,
         0,
@@ -171,13 +165,13 @@
         0,
         0
       ],
-      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox/app/controllers/api_controller.rb": [
+      "/Users/alirezaandersen/turing/module4/week5/ThoughtBox-h/app/controllers/api_controller.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1469479632
+    "timestamp": 1469499447
   }
 }
