@@ -5,13 +5,16 @@ function linkKeyPress(e) {
   }
 }
 
+function stripHtml(str){
+  return str.replace(/<(?:.|\n)*?>/gm, '');
+}
+
 function linkBlur(e) {
   var
     $this = $(this),
     id = Number($(this).attr('id').match(/^(\d+)-/)[1]),
-    linkTitle = $this.html().split(': </strong>')[0],
+    linkTitle = stripHtml($this.html().split(': </strong>')[0]),
     linkUrl = $this.html().split(': </strong>')[1];
-    //debugger;
   changeData(id, linkTitle, linkUrl);
 }
 
@@ -24,8 +27,9 @@ function editLink(e) {
   $linkText.focus();
 }
 
+  var AUTH_TOKEN = $('meta[name=csrf-token]').attr('content');
 function changeData(id, linkTitle, linkUrl) {
-  var data = {title: linkTitle, url: linkUrl};
+  var data = {authenticity_token: AUTH_TOKEN,title: linkTitle, url: linkUrl};
 
   $.ajax({
     url: "api/v1/links/" + id,
