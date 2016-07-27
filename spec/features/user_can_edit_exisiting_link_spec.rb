@@ -59,12 +59,12 @@ RSpec.feature "Authenticated user can create and save a link" do
     fill_in :link_url, with: "https://www.nps.gov/glac/index.htm"
     click_on "Save Link"
 
-    visit "/links"
-
+    #visit "/links"
 
     #within (".links") do
       #expect(page).to have_content "https://www.nps.gov/glac/index.htm"
-      # sleep(10)
+      
+      save_and_open_page
       page.should have_content('https://www.nps.gov/glac/index.htm')
     #end
 

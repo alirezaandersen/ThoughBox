@@ -1,11 +1,3 @@
-function updateLinkById(id,data){
-  $.ajax({
-    url: "api/v1/links/" + id,
-    method: "PATCH",
-    data: data
-  });
-}
-
 function markAsRead(e) {
   var
     data = {read: true},

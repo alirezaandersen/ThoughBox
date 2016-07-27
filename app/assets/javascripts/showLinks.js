@@ -11,7 +11,7 @@ function getMarkedOrUnmarkedContent(link){
   var content = '';
   content +='<li id="' + link.id + '-li"';
   content += link.read === true ? 'class="read-link">' : '>';
-  content += '<strong>' + link.title + ': </strong> ' + link.url + '</li>';
+  content += '<span class="link-title">' + link.title + '</span>: <span class="link-url">' + link.url + '</span></li>';
   return content;
 }
 
