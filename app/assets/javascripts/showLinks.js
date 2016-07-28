@@ -7,15 +7,35 @@ function getLinks() {
   });
 }
 
+function getMarkedOrUnmarkedContent(link){
+  var content = '';
+  content +='<li id="' + link.id + '-li"';
+  content += link.read === true ? 'class="read-link">' : '>';
+  content += '<span class="link-title">' + link.title + '</span>: <span class="link-url">' + link.url + '</span></li>';
+  return content;
+}
+
+function getMarkedOrUnmarkedButton(link){
+  var buttonContent = '';
+  if(link.read === true){
+    buttonContent += '<button class="btn btn-default hide" id="' + link.id + '-read">Mark as Read</button>';
+    buttonContent += '<button class="btn btn-default" id="' + link.id + '-unread">Mark as Unread</button>';
+  }
+  else{
+    buttonContent += '<button class="btn btn-default" id="' + link.id + '-read">Mark as Read</button>';
+    buttonContent += '<button class="btn btn-default hide" id="' + link.id + '-unread">Mark as Unread</button>';
+  }
+  return buttonContent;
+}
+
 function renderLink(link) {
   var
     linkContent = '',
     $linkDiv;
 
   linkContent += '<div class="link" id="' + link.id + '-link">';
-  linkContent += '<li id="' + link.id + '-li"><strong>' + link.title + ': </strong> ' + link.url + '</li>';
-  linkContent += '<button class="btn btn-default" id="' + link.id + '-read">Mark as Read</button>';
-  linkContent += '<button class="btn btn-default hide" id="' + link.id + '-unread">Mark as Unread</button>';
+  linkContent += getMarkedOrUnmarkedContent(link);
+  linkContent += getMarkedOrUnmarkedButton(link);
   linkContent += '<button class="btn btn-default" id="' + link.id + '-edit">Edit</button></div>';
 
   $linkDiv = $(linkContent);
